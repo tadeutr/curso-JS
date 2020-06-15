@@ -29,3 +29,22 @@ const carro = {
 carro.proprietario.endereco.numero = 1000
 
 console.log(carro)
+
+////// Criando função para construir um objeto na função
+
+function criarFuncionario(nome, salarioBase, faltas) {
+    return {
+        nome,
+        salarioBase,
+        faltas,
+        getsalario() {
+            return (salarioBase / 30) * (30 - faltas)
+        }
+    }
+}
+
+
+const f1 = criarFuncionario('Joao', 7900, 4)
+const f2 = criarFuncionario('Maria', 10000, 2)
+
+console.log(f1.getsalario(), f2.getsalario())
