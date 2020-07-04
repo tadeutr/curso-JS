@@ -1,0 +1,50 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	display: block;
+	justify-content: center;
+	align-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+label{
+	margin-right: 10px;
+	font-weight: bolder;
+	color:black;
+}
+.saldoAtual{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: red;
+	font-weight: bolder;
+	font-size: 30px;
+}
+input{
+	border-radius: 2px;
+	outline: none;
+	box-shadow: black 0px 1px 3px;
+
+}
+button, #option{
+	box-shadow: black 0px 1px 3px;
+	padding: 2px 5px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+button:hover{
+	background-color: grey;
+	opacity: 0.7;
+	transition: 700ms;
+}
+.extrato{
+	display:block;
+	text-align: center;
+}
+#tabelaDeExtrato{
+ margin: 10px auto;
+}
+div{
+	margin: 10px 0px 10px 0px;
+}

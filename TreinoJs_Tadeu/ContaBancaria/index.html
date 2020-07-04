@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>app</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+
+	<body>
+
+		<div class="container">
+			<div>
+				<label>Tipo De Transação</label>
+					<select id="option">
+						<option >Deposito</option>
+						<option >Saque</option>
+				</select>
+			</div>
+
+			<div>
+				<label>Valor</label>
+				<input type="number" id="inputValor">
+				<button id="botao">Confirmar</button>
+			</div>
+			
+			<div class="saldoAtual">
+				<label>Seu saldo atual</label><br/>
+				<div id="display"></div>
+			</div>
+
+			<div id="extrato" class="extrato">
+				<h4>Ultimas transações</h4>
+				<table border="1" id="tabelaDeExtrato">
+					<tr>
+						<th>Tipo de Transação </th>
+						<th>Valor</th>
+					</tr>
+				</table>
+			</div>
+
+		</div>
+
+
+
+		<script src="main.js"></script>
+	</body>
+</html>
